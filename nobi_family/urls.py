@@ -5,7 +5,7 @@ from django.views.generic import TemplateView
 from . import views
 
 
-app_name = 'nobi_child'
+app_name = 'nobi_family'
 urlpatterns = [
     url(
         regex="^Child/~create/$",

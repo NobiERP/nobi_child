@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_nobi-child
+test_nobi-family
 ------------
 
-Tests for `nobi-child` models module.
+Tests for `nobi-family` models module.
 """
 
 from django.test import TestCase
 
-from nobi_child import models
+from nobi_family import models
 
 
-class TestNobi_child(TestCase):
+class TestNobi_family(TestCase):
 
     def setUp(self):
         pass

@@ -1,4 +1,4 @@
-* Nobi Child version:
+* Nobi Family version:
 * Django version:
 * Python version:
 * Operating System:
