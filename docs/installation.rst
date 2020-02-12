@@ -4,9 +4,9 @@ Installation
 
 At the command line::
 
-    $ easy_install nobi-child
+    $ easy_install nobi-family
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv nobi-child
-    $ pip install nobi-child
+    $ mkvirtualenv nobi-family
+    $ pip install nobi-family

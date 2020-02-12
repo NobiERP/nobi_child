@@ -11,7 +11,7 @@ except ImportError:
 
 
 def get_version(*file_paths):
-    """Retrieves the version from nobi_child/__init__.py"""
+    """Retrieves the version from nobi_family/__init__.py"""
     filename = os.path.join(os.path.dirname(__file__), *file_paths)
     version_file = open(filename).read()
     version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
@@ -21,7 +21,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-version = get_version("nobi_child", "__init__.py")
+version = get_version("nobi_family", "__init__.py")
 
 
 if sys.argv[-1] == 'publish':
@@ -45,21 +45,21 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='nobi-child',
+    name='nobi-family',
     version=version,
-    description="""Module Child for NobiERP""",
+    description="""Module Family for NobiERP""",
     long_description=readme + '\n\n' + history,
     author='Florian Alu',
     author_email='alu@prolibre.com',
-    url='https://github.com/nobierp/nobi-child',
+    url='https://github.com/nobierp/nobi-family',
     packages=[
-        'nobi_child',
+        'nobi_family',
     ],
     include_package_data=True,
     install_requires=["django-model-utils>=2.0",],
     license="GNU Affero General Public License v3 or later (AGPLv3+)",
     zip_safe=False,
-    keywords='nobi-child',
+    keywords='nobi-family',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Framework :: Django :: 2.1',

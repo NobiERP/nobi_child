@@ -28,7 +28,7 @@ clean-pyc: ## remove Python file artifacts
 	find . -name '*~' -exec rm -f {} +
 
 lint: ## check style with flake8
-	flake8 nobi_child tests
+	flake8 nobi_family tests
 
 test: ## run tests quickly with the default Python
 	python runtests.py tests
@@ -37,15 +37,15 @@ test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source nobi_child runtests.py tests
+	coverage run --source nobi_family runtests.py tests
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
 
 docs: ## generate Sphinx HTML documentation, including API docs
-	rm -f docs/nobi-child.rst
+	rm -f docs/nobi-family.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ nobi_child
+	sphinx-apidoc -o docs/ nobi_family
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html
