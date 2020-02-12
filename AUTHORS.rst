@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Florian Alu <alu@prolibre.com>
+* Florian Alu <fla@grapps.fr>
 
 Contributors
 ------------

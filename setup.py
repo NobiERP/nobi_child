@@ -50,7 +50,7 @@ setup(
     description="""Module Family for NobiERP""",
     long_description=readme + '\n\n' + history,
     author='Florian Alu',
-    author_email='alu@prolibre.com',
+    author_email='fla@grapps.fr',
     url='https://github.com/nobierp/nobi-family',
     packages=[
         'nobi_family',
