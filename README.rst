@@ -5,8 +5,8 @@ Nobi Family
 .. image:: https://badge.fury.io/py/nobi-family.svg
     :target: https://badge.fury.io/py/nobi-family
 
-.. image:: https://travis-ci.org/nobierp/nobi-family.svg?branch=master
-    :target: https://travis-ci.org/nobierp/nobi-family
+.. image:: https://travis-ci.com/nobierp/nobi-family.svg?branch=master
+    :target: https://travis-ci.com/nobierp/nobi-family
 
 .. image:: https://codecov.io/gh/nobierp/nobi-family/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/nobierp/nobi-family
