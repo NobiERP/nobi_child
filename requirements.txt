@@ -1,2 +1,4 @@
 django-model-utils>=2.0
 # Additional requirements go here
+django-phonenumber-field==4.0.0
+phonenumbers==8.11.4

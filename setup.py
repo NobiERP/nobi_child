@@ -23,10 +23,10 @@ def get_version(*file_paths):
 
 version = get_version("nobi_family", "__init__.py")
 
-
 if sys.argv[-1] == 'publish':
     try:
         import wheel
+
         print("Wheel version: ", wheel.__version__)
     except ImportError:
         print('Wheel library missing. Please run "pip install wheel"')
@@ -56,7 +56,7 @@ setup(
         'nobi_family',
     ],
     include_package_data=True,
-    install_requires=["django-model-utils>=2.0",],
+    install_requires=["django-model-utils>=2.0", "django-phonenumber-field>=4.0.0", "phonenumbers>=8.11.4"],
     license="GNU Affero General Public License v3 or later (AGPLv3+)",
     zip_safe=False,
     keywords='nobi-family',
