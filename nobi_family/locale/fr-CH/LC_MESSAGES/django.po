@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-11 11:20+0100\n"
+"PO-Revision-Date: 2020-03-11 11:25+0100\n"
+"Language: fr_CH\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+
+#: .\nobi_family\models.py:20
+msgid "Number"
+msgstr "Numéro"
+
+#: .\nobi_family\models.py:21
+msgid "Street"
+msgstr "Rue"
+
+#: .\nobi_family\models.py:22
+msgid "ZIP"
+msgstr "NPA"
+
+#: .\nobi_family\models.py:23
+msgid "City"
+msgstr "Ville"
+
+#: .\nobi_family\models.py:24
+msgid "Department"
+msgstr "Canton"
+
+#: .\nobi_family\models.py:25
+msgid "Country"
+msgstr "Pays"
+
+#: .\nobi_family\models.py:29 .\nobi_family\models.py:149
+msgid "Address"
+msgstr "Adresse"
+
+#: .\nobi_family\models.py:30
+msgid "Addresses"
+msgstr "Adresses"
+
+#: .\nobi_family\models.py:40 .\nobi_family\models.py:62
+msgid "Name"
+msgstr "Nom"
+
+#: .\nobi_family\models.py:44
+msgid "Language"
+msgstr "Langue"
+
+#: .\nobi_family\models.py:45 .\nobi_family\models.py:142
+msgid "Languages"
+msgstr "Langues"
+
+#: .\nobi_family\models.py:70
+msgid "Family"
+msgstr "Famille"
+
+#: .\nobi_family\models.py:71
+msgid "Families"
+msgstr "Familles"
+
+#: .\nobi_family\models.py:82
+msgid "In progress"
+msgstr "En cours"
+
+#: .\nobi_family\models.py:83
+msgid "Archived"
+msgstr "Archivé"
+
+#: .\nobi_family\models.py:86
+msgid "Man"
+msgstr "Homme"
+
+#: .\nobi_family\models.py:87
+msgid "Woman"
+msgstr "Femme"
+
+#: .\nobi_family\models.py:88
+msgid "Boy"
+msgstr "Garçon"
+
+#: .\nobi_family\models.py:89
+msgid "Girl"
+msgstr "Fille"
+
+#: .\nobi_family\models.py:90
+msgid "Other"
+msgstr "Autre"
+
+#: .\nobi_family\models.py:91
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: .\nobi_family\models.py:99
+msgid "First name"
+msgstr "Prénom"
+
+#: .\nobi_family\models.py:100
+msgid "Last name"
+msgstr "Nom de famille"
+
+#: .\nobi_family\models.py:101
+msgid "Alive"
+msgstr "Vivante"
+
+#: .\nobi_family\models.py:102
+msgid "Email"
+msgstr "Courriel"
+
+#: .\nobi_family\models.py:103
+msgid "Phone"
+msgstr "Téléphone"
+
+#: .\nobi_family\models.py:104
+msgid "Mobile phone"
+msgstr "Téléphone mobile"
+
+#: .\nobi_family\models.py:105
+msgid "Professional phone"
+msgstr "Téléphone professionnel"
+
+#: .\nobi_family\models.py:106
+msgid "Slug"
+msgstr "Slug"
+
+#: .\nobi_family\models.py:107
+msgid "Picture"
+msgstr "Photo"
+
+#: .\nobi_family\models.py:108
+msgid "Birth date"
+msgstr "Date de naissance"
+
+#: .\nobi_family\models.py:112
+msgid "Couple"
+msgstr "Couple"
+
+#: .\nobi_family\models.py:121
+msgid "Parents"
+msgstr "Parents"
+
+#: .\nobi_family\models.py:128
+msgid "Children"
+msgstr "Enfants"
+
+#: .\nobi_family\models.py:135
+msgid "Fraternities"
+msgstr "Fraternités"
+
+#: .\nobi_family\models.py:156
+msgid "Gender"
+msgstr "Genre"
+
+#: .\nobi_family\models.py:161
+msgid "Person"
+msgstr "Personne"
+
+#: .\nobi_family\models.py:178
+msgid "Full name"
+msgstr "Nom complet"
